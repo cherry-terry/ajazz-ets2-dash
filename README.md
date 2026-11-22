@@ -4,7 +4,7 @@
 
 **Live telemetry and direct truck controls for Euro Truck Simulator 2 & American Truck Simulator on the Ajazz AKP03E**
 
-[![Download](https://img.shields.io/badge/⬇_Download-latest_release-2ecc71?style=for-the-badge)](https://github.com/cherry-terry/ajazz-ets2-dash/releases/latest)
+[![Download](https://img.shields.io/badge/⬇_Download-ZIP-2ecc71?style=for-the-badge)](https://github.com/cherry-terry/ajazz-ets2-dash/archive/refs/heads/main.zip)
 [![Guide PDF](https://img.shields.io/badge/📘_Guide-PDF-1f2328?style=for-the-badge)](ETS2Dash-Guide.pdf)
 
 ![Version](https://img.shields.io/badge/version-2.0-3ddc84)
