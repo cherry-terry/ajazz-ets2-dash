@@ -1,5 +1,7 @@
 <div align="center">
 
+![Social banner](images/ets2-dash-social-banner.jpg)
+
 # 🚛 ETS2 Dash
 
 **Live telemetry and direct truck controls for Euro Truck Simulator 2 & American Truck Simulator on the Ajazz AKP03E**
