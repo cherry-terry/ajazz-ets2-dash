@@ -1,0 +1,786 @@
+{
+  "Actions": [
+    {
+      "Name": "Speed Limit",
+      "UUID": "com.diy.ets2dash.speedlimit",
+      "Icon": "static/speedlimit.png",
+      "Tooltip": "Current speed limit",
+      "States": [
+        {
+          "Image": "static/speedlimit.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Fuel",
+      "UUID": "com.diy.ets2dash.fuel",
+      "Icon": "static/fuel.png",
+      "Tooltip": "Fuel in the tank and range",
+      "States": [
+        {
+          "Image": "static/fuel.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Cruise Control",
+      "UUID": "com.diy.ets2dash.cruise",
+      "Icon": "static/cruise.png",
+      "Tooltip": "Cruise speed. Press: on/off",
+      "States": [
+        {
+          "Image": "static/cruise.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Gear",
+      "UUID": "com.diy.ets2dash.gear",
+      "Icon": "static/gear.png",
+      "Tooltip": "Current gear",
+      "States": [
+        {
+          "Image": "static/gear.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Distance to Destination",
+      "UUID": "com.diy.ets2dash.distance",
+      "Icon": "static/distance.png",
+      "Tooltip": "Kilometres to the end of the route",
+      "States": [
+        {
+          "Image": "static/distance.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Air Pressure",
+      "UUID": "com.diy.ets2dash.airpressure",
+      "Icon": "static/airpressure.png",
+      "Tooltip": "Brake system air pressure",
+      "States": [
+        {
+          "Image": "static/airpressure.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Parking Brake",
+      "UUID": "com.diy.ets2dash.parkingbrake",
+      "Icon": "static/parkingbrake.png",
+      "Tooltip": "Parking brake state. Press: toggle",
+      "States": [
+        {
+          "Image": "static/parkingbrake.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Engine Brake",
+      "UUID": "com.diy.ets2dash.motorbrake",
+      "Icon": "static/motorbrake.png",
+      "Tooltip": "Engine brake state. Press: toggle",
+      "States": [
+        {
+          "Image": "static/motorbrake.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Retarder",
+      "UUID": "com.diy.ets2dash.retarder",
+      "Icon": "static/retarder.png",
+      "Tooltip": "Retarder level. Press: +1, turns off after the maximum",
+      "States": [
+        {
+          "Image": "static/retarder.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Differential Lock",
+      "UUID": "com.diy.ets2dash.difflock",
+      "Icon": "static/difflock.png",
+      "Tooltip": "Diff lock state. Press: toggle",
+      "States": [
+        {
+          "Image": "static/difflock.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Beacon",
+      "UUID": "com.diy.ets2dash.beacon",
+      "Icon": "static/beacon.png",
+      "Tooltip": "Beacon lights. Press: toggle",
+      "States": [
+        {
+          "Image": "static/beacon.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Lights",
+      "UUID": "com.diy.ets2dash.lights",
+      "Icon": "static/lights.png",
+      "Tooltip": "Light mode. Press: next mode, hold: high beam",
+      "States": [
+        {
+          "Image": "static/lights.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Delivery Time",
+      "UUID": "com.diy.ets2dash.delivery",
+      "Icon": "static/delivery.png",
+      "Tooltip": "Time left until the delivery deadline",
+      "States": [
+        {
+          "Image": "static/delivery.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Game Time",
+      "UUID": "com.diy.ets2dash.gametime",
+      "Icon": "static/gametime.png",
+      "Tooltip": "In-game time and weekday",
+      "States": [
+        {
+          "Image": "static/gametime.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Trailer Damage",
+      "UUID": "com.diy.ets2dash.trailerdamage",
+      "Icon": "static/trailerdamage.png",
+      "Tooltip": "Trailer wear and cargo damage",
+      "States": [
+        {
+          "Image": "static/trailerdamage.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Fuel Consumption",
+      "UUID": "com.diy.ets2dash.consumption",
+      "Icon": "static/consumption.png",
+      "Tooltip": "Average fuel consumption, L/100 km",
+      "States": [
+        {
+          "Image": "static/consumption.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Water Temperature",
+      "UUID": "com.diy.ets2dash.watertemp",
+      "Icon": "static/watertemp.png",
+      "Tooltip": "Coolant temperature",
+      "States": [
+        {
+          "Image": "static/watertemp.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Oil Pressure",
+      "UUID": "com.diy.ets2dash.oilpressure",
+      "Icon": "static/oilpressure.png",
+      "Tooltip": "Engine oil pressure",
+      "States": [
+        {
+          "Image": "static/oilpressure.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Trailer Coupling",
+      "UUID": "com.diy.ets2dash.attach",
+      "Icon": "static/attach.png",
+      "Tooltip": "Coupling state. Press: attach/detach",
+      "States": [
+        {
+          "Image": "static/attach.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Truck Lift Axle",
+      "UUID": "com.diy.ets2dash.liftaxle",
+      "Icon": "static/liftaxle.png",
+      "Tooltip": "Truck lift axle. Press: raise/lower",
+      "States": [
+        {
+          "Image": "static/liftaxle.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Trailer Lift Axle",
+      "UUID": "com.diy.ets2dash.trailerliftaxle",
+      "Icon": "static/trailerliftaxle.png",
+      "Tooltip": "Trailer lift axle. Press: raise/lower",
+      "States": [
+        {
+          "Image": "static/trailerliftaxle.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Trailer Axle Slide",
+      "UUID": "com.diy.ets2dash.slideaxle",
+      "Icon": "static/slideaxle.png",
+      "Tooltip": "Manual trailer axle adjustment",
+      "States": [
+        {
+          "Image": "static/slideaxle.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Trailer Brake",
+      "UUID": "com.diy.ets2dash.trailerbrake",
+      "Icon": "static/trailerbrake.png",
+      "Tooltip": "Brakes the trailer while held",
+      "States": [
+        {
+          "Image": "static/trailerbrake.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Reset Suspension",
+      "UUID": "com.diy.ets2dash.suspreset",
+      "Icon": "static/suspreset.png",
+      "Tooltip": "Return suspension to the default height",
+      "States": [
+        {
+          "Image": "static/suspreset.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Doors",
+      "UUID": "com.diy.ets2dash.doors",
+      "Icon": "static/doors.png",
+      "Tooltip": "Open/close doors (bus)",
+      "States": [
+        {
+          "Image": "static/doors.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Parking Camera",
+      "UUID": "com.diy.ets2dash.parkingcam",
+      "Icon": "static/parkingcam.png",
+      "Tooltip": "Parking camera mode",
+      "States": [
+        {
+          "Image": "static/parkingcam.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Cabin Light",
+      "UUID": "com.diy.ets2dash.cabinlight",
+      "Icon": "static/cabinlight.png",
+      "Tooltip": "Toggle the cabin light",
+      "States": [
+        {
+          "Image": "static/cabinlight.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Hazard Lights",
+      "UUID": "com.diy.ets2dash.hazard",
+      "Icon": "static/hazard.png",
+      "Tooltip": "Hazard warning lights",
+      "States": [
+        {
+          "Image": "static/hazard.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Horn",
+      "UUID": "com.diy.ets2dash.horn",
+      "Icon": "static/horn.png",
+      "Tooltip": "Sounds while held",
+      "States": [
+        {
+          "Image": "static/horn.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Cruise +/-",
+      "UUID": "com.diy.ets2dash.k_cruise",
+      "Icon": "static/k_cruise.png",
+      "Tooltip": "Rotate: cruise speed. Push: on/off",
+      "States": [
+        {
+          "Image": "static/k_cruise.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Knob"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Retarder +/-",
+      "UUID": "com.diy.ets2dash.k_retarder",
+      "Icon": "static/k_retarder.png",
+      "Tooltip": "Rotate: retarder level. Push: engine brake",
+      "States": [
+        {
+          "Image": "static/k_retarder.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Knob"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Wipers",
+      "UUID": "com.diy.ets2dash.k_wipers",
+      "Icon": "static/k_wipers.png",
+      "Tooltip": "Rotate: wiper mode",
+      "States": [
+        {
+          "Image": "static/k_wipers.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Knob"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Front Suspension",
+      "UUID": "com.diy.ets2dash.k_frontsusp",
+      "Icon": "static/k_frontsusp.png",
+      "Tooltip": "Rotate: up/down. Push: reset suspension",
+      "States": [
+        {
+          "Image": "static/k_frontsusp.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Knob"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Rear Suspension",
+      "UUID": "com.diy.ets2dash.k_rearsusp",
+      "Icon": "static/k_rearsusp.png",
+      "Tooltip": "Rotate: up/down. Push: reset suspension",
+      "States": [
+        {
+          "Image": "static/k_rearsusp.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Knob"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Trailer Suspension",
+      "UUID": "com.diy.ets2dash.k_trailersusp",
+      "Icon": "static/k_trailersusp.png",
+      "Tooltip": "Rotate: up/down. Push: reset suspension",
+      "States": [
+        {
+          "Image": "static/k_trailersusp.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Knob"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Trailer Axle Slide",
+      "UUID": "com.diy.ets2dash.k_slideaxle",
+      "Icon": "static/k_slideaxle.png",
+      "Tooltip": "Rotate: forward/back. Push: manual mode",
+      "States": [
+        {
+          "Image": "static/k_slideaxle.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Knob"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Left Sun Shade",
+      "UUID": "com.diy.ets2dash.k_lshade",
+      "Icon": "static/k_lshade.png",
+      "Tooltip": "Rotate: up/down",
+      "States": [
+        {
+          "Image": "static/k_lshade.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Knob"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Right Sun Shade",
+      "UUID": "com.diy.ets2dash.k_rshade",
+      "Icon": "static/k_rshade.png",
+      "Tooltip": "Rotate: up/down",
+      "States": [
+        {
+          "Image": "static/k_rshade.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Knob"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Driver Window",
+      "UUID": "com.diy.ets2dash.k_lwindow",
+      "Icon": "static/k_lwindow.png",
+      "Tooltip": "Rotate: close/open",
+      "States": [
+        {
+          "Image": "static/k_lwindow.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Knob"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Name": "Passenger Window",
+      "UUID": "com.diy.ets2dash.k_rwindow",
+      "Icon": "static/k_rwindow.png",
+      "Tooltip": "Rotate: close/open",
+      "States": [
+        {
+          "Image": "static/k_rwindow.png",
+          "ShowTitle": false
+        }
+      ],
+      "Controllers": [
+        "Knob"
+      ],
+      "SupportedInMultiActions": false,
+      "UserTitleEnabled": false,
+      "DisableAutomaticStates": true,
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    }
+  ],
+  "SDKVersion": 3,
+  "Author": "DIY",
+  "Name": "ETS2 Dash",
+  "Icon": "static/plugin.png",
+  "CategoryIcon": "static/plugin.png",
+  "Category": "ETS2 Dash",
+  "CodePathWin": "plugin/index.js",
+  "Description": "Telemetry and control for Euro Truck Simulator 2 / American Truck Simulator",
+  "Version": "2.0.0",
+  "URL": "https://github.com",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "3.10.188.226"
+  },
+  "Nodejs": {
+    "Version": "20"
+  }
+}

@@ -1,0 +1,1 @@
+{ "name": "ets2dash", "version": "2.0.0", "main": "index.js", "private": true, "dependencies": { "ws": "^8.18.0" } }
